@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  nav {
+    position: relative;
+    z-index: +1;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .carousel {
+    height: 100vh;
+  }
+
+  .carousel div {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
