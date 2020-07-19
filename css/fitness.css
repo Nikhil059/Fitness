@@ -1,21 +1,83 @@
 html {
-    scroll-behavior: smooth;
-    font-family: 'Josefin Sans', sans-serif;
-  }
+  scroll-behavior: smooth;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-  nav {
-    position: relative;
-    z-index: +1;
-    background-color: transparent;
-    box-shadow: none;
-  }
+nav {
+  position: relative;
+  z-index: +1;
+  background-color: transparent;
+  box-shadow: none;
+}
 
-  .carousel {
-    height: 100vh;
-  }
+.first-section{
+  background-image: url(../img/fitness1.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .carousel div {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.text-color-orange{
+  color: #ff6600;
+}
+
+.text-color-white{
+  color: white;
+}
+
+.tag-line{
+  margin-top: 10%;
+}
+.text-1{
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.text-2{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 45px;
+}
+.info-btn{
+  margin-top: 20px;
+}
+.btn-1{
+  color: #dd5800;
+  border: 2px solid #dd5800;
+  padding: 8px 15px;
+  transition: all .5s ease;
+}
+.btn-1:hover{
+  background-color: #dd5800;
+  color: white;
+}
+
+.text-4{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.feature{
+  margin-top: 12%;
+}
+
+.platform-icon1{
+  margin-top: 20px;
+}
+.platform-icon1 i{
+  background-color: #252525;
+  margin: 0px 20px;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 26px;
+  opacity: .8;
+}
+.platform-icon1 i:hover{
+  opacity: 100%;
+  transform: scale(1.03);
+}
+
+.row-margin{
+  margin-bottom: 0;
+}
